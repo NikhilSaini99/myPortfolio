@@ -12,15 +12,7 @@ import 'aos/dist/aos.css';
 
 const Projects = () => {
 
-  /*   const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      arrows: { xs: 'false', md: 'true' },
-      autoplay: true,
-    }; */
+
 
   return (
     <Box id="projects" role="region" aria-labelledby="project_section"
