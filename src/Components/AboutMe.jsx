@@ -1,13 +1,14 @@
 import React from "react";
 import { Grid, Box, Typography } from "@mui/material";
-
 import { skillsImg } from "../Utils/data";
 import background from '../images/backgroundSVG/aboutme.svg'
-
+import 'aos/dist/aos.css';
 
 const AboutMe = () => {
+
+  
     return (
-        <Box  id="aboutme" role="region" aria-labelledby="about_section"
+        <Box  id="aboutme" role="region" aria-labelledby="about_section" data-aos="zoom-out-up"
             sx={{
                 display: "flex",
                 flexDirection: "column",

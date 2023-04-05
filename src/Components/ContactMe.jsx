@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
 import background from '../images/backgroundSVG/WhitePoly.svg'
+import 'aos/dist/aos.css';
 
 const ContactMe = () => {
     const [state, handleSubmit] = useForm("mdovzall");
@@ -35,7 +36,7 @@ useEffect(()=>{
 
 
         return (
-        <Box id="contact_me" aria-labelledby="contact_section" role="region"
+        <Box id="contact_me" aria-labelledby="contact_section" role="region" 
        
             sx={{
                 display: "flex",
@@ -79,6 +80,7 @@ useEffect(()=>{
                             py:{xs:'3rem',md:'4rem'},
                           
                         }}
+                        data-aos="flip-up"
                     >
                         <Box
                         

@@ -8,7 +8,7 @@ import {
   Box,
   Stack,
 } from "@mui/material";
-
+import 'aos/dist/aos.css';
 
 const Projects = () => {
 
@@ -45,12 +45,12 @@ const Projects = () => {
       </Stack>
 
       <Grid container sx={{
-        maxWidth: { xs: '300px', sm: '600px', md: '900px', lg: '1200px', xl:'1536px' }, margin: '0 auto'
+        maxWidth: { xs: '300px', sm: '600px', md: '900px', lg: '1200px', xl: '1536px' }, margin: '0 auto'
       }}>
         <Grid item xs={12} sx={{ flexGrow: 1 }}>
           {projects_data.map((item, index) => {
             return (
-              <Stack direction="column" key={index} mb={10} spacing={5}>
+              <Stack direction="column" key={index} mb={10} spacing={5} data-aos="fade-left">
                 <Box sx={{ display: { xs: 'column', sm: 'column', md: 'flex' }, gap: '2rem' }}>
                   <Box
                     sx={{ margin: { xs: '0 auto', sm: '0 auto' }, maxWidth: '600px' }}
